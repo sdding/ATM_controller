@@ -12,5 +12,5 @@
     * If the user's password has been verified, user can choose the account  
     
     * User decides what to do next  
-        (check the balance or deposit or withdraw)  
+        (check the balance or deposit or withdraw or end)  
     * show the balance after action 
