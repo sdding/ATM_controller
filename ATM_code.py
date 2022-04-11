@@ -45,6 +45,7 @@ class ATM:
                 print("======================")
                 print("Account :", entered_account)
                 print("Remaining amount :", Bank.personal_data[self.card_num]["account"][entered_account])
+                print("======================")
             elif entered_action == "deposit":
                 money = int(input("Insert money : "))
 
@@ -53,6 +54,7 @@ class ATM:
                 print("Successfully Deposited")
                 print("Account :", entered_account)
                 print("Remaining amount :", Bank.personal_data[self.card_num]["account"][entered_account])
+                print("======================")
             elif entered_action == "withdraw":
                 money = int(input("How much : "))
 
@@ -67,6 +69,7 @@ class ATM:
                 print("Successfully Withdrawn")
                 print("Account :", entered_account)
                 print("Remaining amount :", Bank.personal_data[self.card_num]["account"][entered_account])
+                print("======================")
             elif entered_action == 'end':
                 break
             else:
